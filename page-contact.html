@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="/assets/img/Icons/Logo-site.jpg" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/img/Icons/logosite.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminae</title>
+        <link rel="stylesheet" href="/src/css/style.css" />
+        <script src="/src/js/script.js" defer></script>
+</head>
+<body>
+            <header class="header">
+                <a class="header__logo-link" href="/"><img src="/assets/img/Icons/logosite.svg" alt="Logo Luminae"></a>
+                
+                    <div class="header__an-en">
+                        <a class="heder__btn-fr" href=""><img src="/assets/img/Icons/buttonfr.svg" alt="boutton français"></a>
+                        <a class="heder__btn-en" href=""><img src="/assets/img/Icons/btn-fr.svg" alt="boutton anglais"></a>
+                    </div>
+                    
+                    <p class="titre-header">Liminae</p>
+                    <button
+                        class="header__menu-btn"
+                        aria-label="menu"
+                        aria-expanded="false"
+                        aria-controls="mainNav">
+                
+                        <span class="header__menu-btn-bar"></span>
+                    </button>
+                    <nav class="header__menu" id="mainNav" aria-hidden="true">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item"><a class="header__menu-link" href="/">Page d'accueil</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="/page-contact.html">Page Contact</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="/galerie-film.html">Galerie de Film</a></li>
+                            
+                            <li class="header__menu-item"><a class="header__menu-link" href="/frise-chronologique.html">Frise Chronologique</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="/a-propos.html">À Propos</a></li>
+                            <li class="header__menu-item"><a class="header__menu-link" href="/autres-projets.html">Autre Projets</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <main class="main">
+                <div class="hero">  
+                    <h1 class="hero__titre">Contact</h1>
+                    <p class="hero__texte">Vous avez des questions ou souhaitez en savoir plus sur l’évolution des systèmes d’éclairage à travers les âges ?</p>
+                </div>
+    
+                <section class="contact">
+                    <form class="contact__form" action="https://formspree.io/f/xnqoqzqz" method="POST">
+                        <label class="contact__label" for="name">Nom</label>
+                        <input class="contact__input" type="text" id="name" name="name" required>
+                        <label class="contact__label" for="name">Prénom</label>
+                        <input class="contact__input" type="text" id="name" name="name" required>
+                        <label class="contact__label" for="email">Email</label>
+                        <input class="contact__input" type="email" id="email" name="email" required>
+                        <label class="contact__label" for="message">Message</label>
+                        <textarea class="contact__textarea" id="message" name="message" required></textarea>
+                        <button class="contact__submit" type="submit">Envoyer</button>
+                    </form>
+                </section>
+
+            </main>
+            <footer>
+                <div class="footer__contenu">
+                    <ul class="footer__menu">
+                        <a class="footer__item-link" href="">
+                            <li class="footer__item">Galerie</li>
+                        </a>
+                        <a class="footer__item-link" href="">
+                            <li class="footer__item">Contact</li>
+                        </a>
+                        <a class="footer__item-link" href="">
+                            <li class="footer__item">À Propos</li>
+                        </a>
+                        <a class="footer__item-link" href="">
+                            <li class="footer__item">Autres Projets</li>
+                        </a>
+                    </ul>
+                    <hr>
+                    <h3 class="footer__content">Jules Becquelin</h3>
+                    <h3 class="footer__content">Groupe A1</h3>
+                    <h3 class="footer__content">julesbec21@gmail.com</h3>
+                    <small class="footer__content-txt">ce site est issue d’un éxercice dans le cadre d’un projet pédagogique au département MMI Montbéliard</small>
+                        <div class="footer__reseaux">
+                            <a class="footer__reseaux-link" href=""><img src="/assets/img/Icons/instagram.svg" alt="icone facebook"></a>
+                            <a class="footer__reseaux-link" href=""><img src="/assets/img/Icons/discord.svg" alt="icone instagram"></a>
+                            <a class="footer__reseaux-link" href=""><img src="/assets/img/Icons/mmi.svg" alt="icone MMI"></a>
+                            
+                        </div>
+                </div>
+            </footer>
+        </body>     
+    </html>
+        

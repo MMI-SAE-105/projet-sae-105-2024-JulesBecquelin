@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM :Becquelin    
+- PRÉNOM :Jules
+- GROUPE :A1 
 - URL du site :
-- URL FIGMA :
+- URL FIGMA :https://www.figma.com/design/X9PorLmFQcjZnhqkdYczVo/Maquette-projet?node-id=0-1&t=JcZRDSA5jlYuZV8H-1
