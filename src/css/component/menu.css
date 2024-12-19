@@ -1,0 +1,86 @@
+.header__menu{
+    background: #C98862;
+    visibility: visible;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 50;
+    visibility: hidden;
+}
+
+.header__menu-list{
+    list-style: none;
+    justify-content: space-between;
+    display: block;
+    margin-top: 16px;
+    padding-top: 40px;
+}
+
+.header__menu-item{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.header__menu-link{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    
+}
+
+.header__menu-btn {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.header__menu-btn-bar,
+.header__menu-btn-bar::before,
+.header__menu-btn-bar::after {
+  content: "";
+  background: var(--marron-orangé);
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  border-radius: 2px;
+  left: 0;
+  z-index: 10;
+  transition: all 0.4s ease-in-out;
+}
+
+.header__menu-btn-bar::before {
+    top: -10px;
+  }
+  
+  .header__menu-btn-bar::after {
+    top: 10px;
+  }
+  
+  /* Technique pour transformer les 3 barres du bouton de menu en croix
+  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+  .header__menu-btn[aria-expanded="true"] .header__menu-btn-bar,
+  .header__menu-btn[aria-expanded="true"] .header__menu-btn-bar::before,
+  .header__menu-btn[aria-expanded="true"] .header__menu-btn-bar::after {
+    transform: rotate(135deg);
+    background: var(--beige);
+  }
+  
+  .header__menu-btn[aria-expanded="true"] .header__menu-btn-bar::before,
+  .header__menu-btn[aria-expanded="true"] .header__menu-btn-bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }

@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: var(--beige-sable);
+   
+    
+}
+
+
+
+h1{
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+h2{
+    color: #444;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+p{
+    color: #444;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+small{
+    color: #444;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+button{
+    border-radius: 30px;
+    border: 2px solid #BF6712;
+    background-color: transparent;
+}
+
+a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%
+}
+
+strong{
+    color: #444;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}

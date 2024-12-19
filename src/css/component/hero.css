@@ -1,0 +1,40 @@
+.hero{
+    background-color: var(--marron-clair);
+    padding : 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.hero__titre{
+    color: #FFF;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    z-index: 6;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.hero::before,
+.hero::after {
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+    background : var(--brun);
+    border-radius: 46px; 
+    position: absolute;
+}
+
+.hero::before{
+    transform: rotate(-45.276deg);
+    
+}
+
+

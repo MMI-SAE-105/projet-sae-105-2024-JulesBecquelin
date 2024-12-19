@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--marron-clair);
+
+}
+
+.header__nom{
+    margin-top: 26px ;
+    margin-bottom: 26px;
+}
+
+.header__an-en{
+    display: flex ;
+    justify-content: center;
+    
+}
+
+.titre-header{
+    font-family: "Sonsie One";
+    color: #FFF;
+    font-size: 36px;
+    
+    
+}
+
+.header__logo-link{
+    display: flex;
+    width: 52px;
+    height: 53px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
