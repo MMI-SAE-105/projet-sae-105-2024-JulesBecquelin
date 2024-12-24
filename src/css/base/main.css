@@ -47,6 +47,8 @@ button{
     border-radius: 30px;
     border: 2px solid #BF6712;
     background-color: transparent;
+    display :flex;
+    align-items: center;
 }
 
 a{
@@ -65,4 +67,8 @@ strong{
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+
+hr{
+    margin: 6px;
 }

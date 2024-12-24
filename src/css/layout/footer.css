@@ -1,3 +1,54 @@
 .footer__contenu{
     background-color: var(--marron-clair);
+
 }
+
+.footer__item{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 18px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    list-style: none;
+}
+
+.footer__itme-link{
+    margin-top: 54px;
+}
+
+.footer__menu{
+    padding-top: 54px;
+    padding-bottom: 22px;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.footer__bar{
+    width: 100%;
+    height: 6px;
+    display: block;
+    background-color: var(--beige-sable);
+}
+
+.footer__contenu2{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    
+    
+}
+
+.footer__mail{
+    color: white;
+}
+
+
