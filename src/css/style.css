@@ -19,6 +19,7 @@
 /* components */
 @import "/src/css/component/menu.css";
 @import "/src/css/component/hero.css";
+@import "/src/css/component/card-accueil.css";
 
 /* layout */
 @import "/src/css/layout/header.css";

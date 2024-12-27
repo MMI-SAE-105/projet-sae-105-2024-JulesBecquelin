@@ -34,15 +34,15 @@
 }
 
 .footer__contenu2{
-    text-decoration: none;
-    display: flex;
+    /* text-decoration: none;
     justify-content: space-evenly;
-    align-items: flex-end;
+     */
     color: white;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
+    padding-top: 18px;
     
     
 }
@@ -51,4 +51,39 @@
     color: white;
 }
 
+.footer__liste{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
 
+.footer__item{
+    padding: 10px;
+    
+}
+
+.footer__mail{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding-top: 37px ;
+
+}
+
+.footer__content-txt{
+    display: flex;
+    color: white;
+    margin: 94px ;
+
+}
+
+.footer__reseaux{
+    display: flex;
+    justify-content: space-around;
+}
