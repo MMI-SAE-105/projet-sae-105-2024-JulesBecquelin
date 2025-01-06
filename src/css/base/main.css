@@ -72,3 +72,8 @@ strong{
 hr{
     margin: 6px;
 }
+
+img{
+    overflow: hidden;
+    
+}
