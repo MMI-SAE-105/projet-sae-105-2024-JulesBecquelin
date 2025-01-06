@@ -1,6 +1,4 @@
-.accueil__contenu{
-    
-}
+
 
 .accueil__titre{
     color: #444;
@@ -27,12 +25,41 @@
 
 .card{
     display: block;
-    width: 352px;
+    width: 80%;
     height: 150px;
     background : var(--brun);
-    position: absolute;
+    position: relative;
     border-radius: 10px;
     background: var(--brun);
     margin: 0 27px  0 27px;
+    margin-top: -100px;
+    margin-bottom: 20px;;
+}
+
+.accueil__card-titre{
+    color: #FFF;
+    text-align: center;
+    font-family: "Exo 2";
+    font-style: normal;
     
+}
+
+.button-card{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 117px;
+    color: #FFF;
+}
+
+.card-sans-image{
+    display: block;
+    width: 80%;
+    height: 150px;
+    background : var(--brun);
+    position: relative;
+    border-radius: 10px;
+    background: var(--brun);
+    margin: 0 27px  0 27px;
 }

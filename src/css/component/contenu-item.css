@@ -1,0 +1,34 @@
+.lampe__contenu{
+    margin : 10px;
+}
+
+.lampe__contenu-img-affiche{
+    width: 90%;
+    height:90%;
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.lampe__titre{
+    text-align: center;
+    color: #444;
+}
+
+.lampe__titre-intro{
+    color: #444;
+    font-family: "Exo 2";
+    font-size: 24px;
+}
+
+.lampe__contenu-sous-titre{
+    font-family: Lato;
+    font-size: 18px;
+}
+
+.lampe__contenu-img{
+    width: 100%;
+    margin: 0;
+}

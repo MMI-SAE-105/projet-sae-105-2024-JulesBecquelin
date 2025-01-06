@@ -1,0 +1,33 @@
+.musique__contenu{
+    margin: 10px;
+}
+
+.musique__contenu-img-affiche{
+    width: 90%;
+    height:90%;
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.musique__titre{
+    color: #444;
+    text-align: center;
+}
+
+.musique__titre-intro{
+    font-family: "Exo 2";
+    font-size: 24px;
+}
+
+.musique__contenu-titre{
+    font-family: "Exo 2";
+font-size: 24px;
+}
+
+.musique__contenu-img{
+    width: 100%;
+    margin: 0;
+}

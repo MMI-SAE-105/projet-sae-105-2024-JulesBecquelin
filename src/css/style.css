@@ -20,6 +20,12 @@
 @import "/src/css/component/menu.css";
 @import "/src/css/component/hero.css";
 @import "/src/css/component/card-accueil.css";
+@import "/src/css/component/contenu-film.css";
+@import "/src/css/component/contenu-item.css";
+@import "/src/css/component/contenu-livre.css";
+@import "/src/css/component/contenu-bo.css";
+@import "/src/css/component/contenu-realisateur.css";
+@import "/src/css/component/galerie-de-film.css";
 
 /* layout */
 @import "/src/css/layout/header.css";

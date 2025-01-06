@@ -1,0 +1,34 @@
+.real__contenu{
+    margin: 10px;
+}
+
+.real__titre{
+    text-align: center;
+    color: #444;
+}
+
+.real__contenu-img{
+    width: 90%;
+    height:90%;
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.real__sous-titre{
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.real__bio-titre{
+    font-family: "Exo 2";
+    font-size: 24px;
+}
+
+.real__contenu-titre{
+    font-family: "Exo 2";
+    font-size: 24px;
+}

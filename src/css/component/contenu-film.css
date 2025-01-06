@@ -1,0 +1,73 @@
+.film__contenu{
+    margin: 10px;
+}
+
+.film__titre{
+    text-align: center;
+    color: #444;
+}
+
+.film__affiche{
+    width: 90%;
+    height:90%;
+    margin: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+
+.film__contenu-image{
+    width: 100%;
+    margin: 0;
+}
+
+.film__sous-titre-affiche{
+    margin-left: 25% ;
+    text-decoration: underline;
+}
+
+
+.film__intro-titre{
+    font-family: "Exo 2";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.film__contenu-titre{
+    font-family: "Exo 2";
+    font-size: 24px;
+}
+
+.film__contenu-texte{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.film__ba-mute{
+    width: 60px;
+    height: 62px;
+    margin-left: 45%;
+}
+
+.play-button{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+.film__ba{
+    width: 100%;
+
+}

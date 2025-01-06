@@ -1,0 +1,25 @@
+.galerie__contenu-titre{
+    font-family: "Exo 2";
+    font-size: 36px;
+    color: #444;
+    text-align: center;
+}
+
+.galerie__contenu{
+    margin: 10px;
+}
+
+.galerie__contenu-image{
+    width: 100%;
+    height: 100%;
+}
+
+.galerie__contenu-titre-sous-itre{
+    text-decoration: underline;
+    color: #444;
+}
+
+.small-texte{
+    text-decoration: underline;
+    margin: 30%;
+}
