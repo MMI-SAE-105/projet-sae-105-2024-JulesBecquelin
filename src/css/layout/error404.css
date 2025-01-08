@@ -1,0 +1,11 @@
+.error404-body{
+  background-color: var(--beige-sable);
+}
+
+.error404{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50%;
+}

@@ -33,3 +33,4 @@
 /* layout */
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";
+@import "/src/css/layout/error404.css";
