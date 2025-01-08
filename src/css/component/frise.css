@@ -1,0 +1,99 @@
+.frise__titre{
+    color: #444;
+    text-align: center;
+}
+
+.frise__liste{
+    padding: 0;
+}
+
+.frise__item{
+    display: flex;
+    margin: 10px;
+}
+
+.frise__item-frise-droite{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+}
+
+.frise{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 50%;
+
+}
+
+.frise:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    bottom: 10px;
+    width: 8px;
+    height: 1950px;
+    background-color: var(--brun);
+
+}
+
+.frise:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    
+}
+
+.frise__image{
+    width: 180px;
+    height: 181px;
+    border-radius: 30px;
+}
+
+.frise__nom-objet{
+    position: relative;
+    bottom: -190px;
+    right: 150px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.frise__nom-objet1{
+    position: relative;
+    bottom: -190px;
+    right: -120px;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+}
+
+.rectangle-frise{
+    position: relative;
+    width: 109px;
+    height: 23px;
+    background-color: var(--brun);
+    right: 30px;
+}
+
+.rectangle-frise1{
+    position: relative;
+    width: 109px;
+    height: 23px;
+    background-color: var(--brun);
+   
+}
+
+.frise__sous-titre{
+    margin: 4px 10px 10px 10px;
+}

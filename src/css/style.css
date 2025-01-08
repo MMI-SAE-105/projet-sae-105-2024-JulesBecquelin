@@ -26,6 +26,9 @@
 @import "/src/css/component/contenu-bo.css";
 @import "/src/css/component/contenu-realisateur.css";
 @import "/src/css/component/galerie-de-film.css";
+@import "/src/css/component/frise.css";
+@import "/src/css/component/contact.css";
+@import "/src/css/component/a-propos.css";
 
 /* layout */
 @import "/src/css/layout/header.css";

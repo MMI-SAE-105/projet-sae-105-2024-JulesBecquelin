@@ -1,0 +1,64 @@
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    align-items:stretch ;
+}
+
+
+#name{
+    width: 87%;
+    padding: 10px;
+    border: 2px solid var(--marron-orangé);
+}    
+
+#message{
+    width: 87%;
+    padding: 10px;
+    border: 2px solid var(--marron-orangé);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+#email{
+    width: 87%;
+    padding: 10px;
+    border: 2px solid var(--marron-orangé);
+    margin-top: 10px;
+}
+
+.button-form{
+    margin-left: 35%;
+    justify-content: center;
+    height: 36px ;
+    width: 98px;
+    color: #000;
+
+/* Button */
+font-family: Roboto;
+font-size: 10px;
+font-style: normal;
+font-weight: 800;
+line-height: 160%; /* 16px */
+}
+
+.hero__texte{
+    color: #444;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.contact__label{
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
