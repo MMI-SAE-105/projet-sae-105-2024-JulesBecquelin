@@ -63,3 +63,11 @@
     background: var(--brun);
     margin: 0 27px  0 27px;
 }
+
+.accueil__apropos-texte{
+    margin:  10px;
+}
+
+.accueil__apropos-titre{
+    margin: 20px;
+}

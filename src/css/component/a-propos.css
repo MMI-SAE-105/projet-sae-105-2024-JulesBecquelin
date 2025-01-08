@@ -7,12 +7,15 @@
 }
 
 .apropos__image{
+   display: flex;
+    justify-content: center;
+    align-items: center;
     width: 325px;
     height: 331px;
     flex-shrink: 0;
     border-radius: 160px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-    margin-left: 30px;
+    right: 50px;
 }
 
 .apropos__h2{

@@ -10,6 +10,7 @@
 .frise__item{
     display: flex;
     margin: 10px;
+    padding-bottom: 30px;
 }
 
 .frise__item-frise-droite{
@@ -33,7 +34,7 @@
     top: 10px;
     bottom: 10px;
     width: 8px;
-    height: 1950px;
+    height: 2000px;
     background-color: var(--brun);
 
 }
@@ -46,11 +47,9 @@
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 20px solid black;
-    
 }
+
+
 
 .frise__image{
     width: 180px;
@@ -83,17 +82,27 @@
     width: 109px;
     height: 23px;
     background-color: var(--brun);
-    right: 30px;
-}
+    position: relative;
+    background: var(--brun);
+    width: calc( 50% - 40px );
+    margin-left: 75px;
+    bottom: -65px;
+  }
+
 
 .rectangle-frise1{
     position: relative;
     width: 109px;
     height: 23px;
     background-color: var(--brun);
-   
+    position: relative;
+    background: var(--brun);
+    width: calc( 50% - 40px );
+    margin-right: 55px;
+    bottom: -65px;
 }
 
 .frise__sous-titre{
     margin: 4px 10px 10px 10px;
 }
+
