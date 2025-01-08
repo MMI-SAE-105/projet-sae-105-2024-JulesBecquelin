@@ -7,5 +7,16 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 50%;
+    margin-top: 50%;
+    background-color: var(--brun);
+}
+
+.btn{
+    background-color: var(--marron-orangé);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
 }
