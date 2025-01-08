@@ -1,0 +1,25 @@
+.apropos__contenu-txt{
+    text-align: center;
+}
+
+.apropos__contenu{
+    margin: 10px;
+}
+
+.apropos__image{
+    width: 325px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 160px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-left: 30px;
+}
+
+.apropos__h2{
+    font-family: "Exo 2";
+    font-size: 24px;
+}
+
+.apropos__glossaire-txt{
+    font-family: "Exo 2";
+}
